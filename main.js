@@ -1,7 +1,7 @@
 const questions = [
     {
         question: "What does the Eagle in Nigeria Coat of Arm represents?",
-        options: ["Humility", "Strength", "Peace"],
+        options: ["Humility","Energy", "Strength", "Peace"],
         correctAnswer: "Strength"
     },
     {
@@ -16,13 +16,13 @@ const questions = [
     },
     {
         question: "What is Bayelsa State known for?",
-        options: ["Beijing", "Crude-oil", "Tokyo", "Bangkok"],
+        options: ["Coal", "Crude-oil", "Steel", "Cement"],
         correctAnswer: "Crude-oil"
     },
     {
-        question: "Who is the ceremonial President of Nigeria?",
-        options: ["Isaac Newton", "Nnamdi Azikiwe", "Stephen Hawking", "Marie Curie"],
-        correctAnswer: "Nnamdi Azikiwe"
+        question: "The Nigeria Civil war lasted for how many years?",
+        options: ["2years", "3years", "4years", "5years"],
+        correctAnswer: "3years"
     }
 ];
 
@@ -100,5 +100,3 @@ function displayQuestion () {
 
  }
 displayQuestion();
-
-// console.log();
